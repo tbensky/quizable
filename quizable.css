@@ -1,0 +1,946 @@
+body {
+	 padding: 0px;
+	 margin: 0px;
+		font-size: 12pt;
+	 }
+
+#header
+	{
+	 	padding: 5px;
+	 	width: 100%;
+	 	margin: 0px;
+	 	height: 75px;
+	 	white-space: nowrap;
+	 	background: #294052;
+	 	border-bottom: solid 5px #447294;
+	}
+	
+#nav
+	{
+		font-size: 12pt;
+		font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+		color: #ffffff;
+		margin-left: auto;
+		margin-right: 10px;
+		float: right;
+		padding: 0px;
+	}
+	
+#add_remove
+	{
+		font-size: 10pt;
+		font-family: Helvetica;
+	}
+
+#plain_link
+	{
+		text-decoration: none;
+		color: #ffffff;
+		font-size: 12pt;
+	}
+
+#footnote_link
+	{
+		text-decoration: none;
+		color: #aaaaaa;
+		font-size: 34pt;
+	}
+	
+#button_link
+	{
+		font-family: Helvetica;
+		font-size: 12pt;
+	}
+	
+h1 {
+ color: #444;
+ background-color: transparent;
+ border-bottom: 2px solid #D0D0D0;
+ font-size: 16pt;
+ font-weight: bold;
+ margin: 24px 0 2px 0;
+ padding: 5px 0 6px 0;
+}
+
+#header1 {
+ color: #444;
+ background-color: transparent;
+ border-bottom: 2px solid #D0D0D0;
+ font-size: 16pt;
+ font-weight: bold;
+ margin: 24px 0 2px 0;
+ padding: 5px 0 6px 0;
+}
+
+#header2 {
+ color: #444;
+ background-color: transparent;
+ font-size: 26pt;
+ font-weight: bold;
+ margin: 24px 0 2px 0;
+ padding: 5px 0 6px 0;
+}
+
+#project_header {
+ color: #444;
+ background-color: transparent;
+ font-size: 16pt;
+ font-weight: bold;
+ margin: 24px 0 2px 0;
+ padding: 5px 0 6px 0;
+}
+
+
+h2 {
+ color: #444;
+ background-color: transparent;
+ font-size: 18px;
+ font-weight: bold;
+ margin: 24px 0 2px 0;
+ padding: 5px 0 6px 0;
+}
+
+h3 {
+ color: #444;
+ background-color: transparent;
+ font-size: 14px;
+ font-weight: bold;
+ margin: 24px 0 2px 0;
+ padding: 5px 0 6px 0;
+}
+
+#student_name
+	{
+		font-size: 11pt;
+		margin: 10px;
+		padding: 5px;
+		font-family: Helvetica;
+	}
+	
+#confirm_delete_student
+	{
+		font-size: 11pt;
+		color: #ee0000;
+		margin: 10px;
+		padding: 5px;
+		font-family: Helvetica;
+	}
+	
+#student_name:hover
+	{
+		background: #ffffcc;
+		margin: 10px;
+	}
+
+#note
+	{
+		font-size: 11pt;
+		color: #888888;
+		margin-top: 1px;
+		margin-left: 20px;
+		font-family: Helvetica;
+		width: 800px;
+	}
+	
+#note_larger
+	{
+		font-size: 12pt;
+		color: #707070;
+		margin-top: 1px;
+		margin-left: 20px;
+		font-family: Helvetica;
+		width: 800px;
+	}
+	
+#note_no_indent
+	{
+		font-size: 10pt;
+		color: #888888;
+		margin-top: 1px;
+		font-family: Helvetica;
+	}
+	
+#rt_help
+	{
+		font-size: 9pt;
+		color: #101010;
+		margin-top: 1px;
+		margin-left: 0;
+		font-family: Courier;
+
+	}
+	
+#go_link
+	{
+		text-decoration: none;
+	}
+	
+#question_status
+	{
+		font-size: 10pt;
+		color: #101010;
+		font-family: Helvetica;
+	}
+	
+#status1
+	{
+		font-size: 10pt;
+		color: #888888;
+		font-family: Helvetica;
+	}
+	
+#try_note
+	{
+		font-size: 12pt;
+		color: #000000;
+		margin-top: 1px;
+		margin-left: 20px;
+		font-family: Helvetica;
+		width: 800px;
+	}
+	
+#class_links
+	{
+		font-size: 10pt;
+		color: #000000;
+		margin-top: 1px;
+		margin-left: 20px;
+	}
+	
+#expired_question, #not_graded
+	{
+		font-size: 10pt;
+		color: #ff1111;
+		font-family: Helvetica;
+		margin-left: 5px;
+	}
+	
+#not_graded
+	{
+		font-size: 10pt;
+		color: #000000;
+		background: #FFCC33;
+		font-family: Helvetica;
+		padding: 2px;
+	}
+	
+#share_list
+	{
+		color: #FF9900;
+		font-size: 10pt;
+	}	
+	
+
+#expired_message
+	{
+		font-size: 14pt;
+		color: #ff1111;
+		font-family: Helvetica;
+		margin-left: 5px;
+	}
+
+#open_question
+	{
+		font-size: 10pt;
+		color: #009900;
+		font-family: Helvetica;
+		margin-left: 5px;
+	}
+
+
+
+#rules
+	{
+		font-size: 11pt;
+		color: #666666;
+		margin-top: 1px;
+		margin-left: 20px;
+		font-family: Helvetica;
+		line-height: 110%;
+		margin-top: 0.25cm;
+	}
+
+	
+#error
+	{
+		font-size: 14pt;
+		color: #ff0000;
+	}
+	
+#yellow_error
+	{
+		font-size: 14pt;
+		color: #ffff00;
+	}
+
+#footer
+	{
+		margin-top: 2cm;
+		margin-bottom: 2cm;
+	}
+
+#info
+	{
+		margin: 1cm;
+	}
+
+#top_bar
+	{
+		font-size: 14pt;
+		color: #006600;
+	}
+	
+#logo
+	{
+		padding: 5px;
+		font-size: 24pt;
+		font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+		color: #ffffff;
+		vertical-align: middle;
+		text-decoration: none;
+	}
+	
+#login_input, #form_input
+	{
+		font-size: 14pt;
+	}
+	
+#`_input
+	{
+		font-size: 10pt;
+	}
+	
+#link_answer
+	{
+		font-size: 12pt;
+	}
+	
+#small_link
+	{
+		font-size: 10pt;
+	}
+	
+#comment_dump
+	{
+		font-size: 10pt;
+	}
+	
+
+#page_contents
+        {
+                width: 80%;
+                margin-left: auto;
+                margin-top: 0cm;
+                margin-bottom: 1cm;
+                margin-right: auto;
+        		font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+                font-size: 16pt;
+                color: #000000;
+        }
+
+
+#main_menu
+        {
+                width: 70%;
+                margin-left: 0.5cm;
+                margin-top: 0.5cm;
+                margin-bottom: 1cm;
+                margin-right: auto;
+        		font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+                font-size: 10pt;
+                color: #000000;
+        }
+#intro_wrapper
+	{
+		width:100%;
+		text-align: center;
+	}
+
+#info_box
+    {
+    	margin-top: 0.5cm;
+    	width: 60%;
+    	margin-left: 1cm;
+        font-size: 14pt;
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+        color: #000000;
+        line-height: 130%;
+        padding: 20px;
+        background: #f8e4cc;
+        border-radius: 7px;
+        display: inline-block;
+     
+    }
+    
+#header_row
+	{
+		font-weight: bold;
+	}
+	
+#actions_col, #answer_col
+	{
+		font-size: 10pt;
+	}
+	
+#about_box_full
+    {
+    	margin-top: 0.5cm;
+    	width: 100%;
+    	margin-left: auto;
+    	margin-right: auto;
+        font-size: 18pt;
+        font-family: Georgia, Times; 
+        color: #505050;
+        line-height: 130%;
+        padding: 20px;
+        background: #f8e4cc;
+        border-radius: 7px;
+        display: inline-block;
+    }
+    
+#info_box_full
+    {
+    	margin-top: 0.5cm;
+    	width: 90%;
+    	margin-left: auto;
+    	margin-right: auto;
+        font-size: 14pt;
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+        color: #000000;
+        line-height: 130%;
+        padding: 20px;
+        background: #f8e4cc;
+        border-radius: 7px;
+        display: inline-block;
+    }
+    
+#answer_dump
+    {
+    	width: 90%;
+    	margin-left: auto;
+    	margin-right: auto;
+        font-size: 12pt;
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+        color: #000000;
+        line-height: 140%;
+        padding: 20px;
+        display: inline-block;
+    }
+    
+#simulate
+    {
+    	margin-top: 0.5cm;
+    	width: 90%;
+    	margin-left: 1cm;
+        font-size: 14pt;
+        font-family: Georgia, Times, Helvetica, Arial, "Lucida Grande", sans-serif; 
+        color: #000000;
+        line-height: 140%;
+        padding: 20px;
+        background: #f8e4cc;
+        border-radius: 7px;
+        display: none;
+    }
+    
+#project_list
+    {
+    	margin-left: auto;
+    	margin-right: auto;
+        font-size: 12pt;
+       	font-family: Helvetica;
+        color: #666666;
+        line-height: 120%;
+    }
+    
+    
+#start_button
+	{
+		padding: 10px;
+		border-radius: 5px;
+		background: #FF9933;
+		font-size: 12pt;
+	}
+	
+#contribute_button
+{
+		padding: 10px;
+		border-radius: 5px;
+		background: #66CC33;
+		font-size: 12pt;
+	}
+
+#input
+	{
+		font-size: 14pt;
+		background: #FFFFee;
+		margin-left: 1cm;
+	}
+	
+#submit
+	{
+		font-size: 14pt;
+		background: #009900;
+		color: #ffffff;
+	}
+	
+#wrapper 
+	{ 
+		margin: 0 auto; max-width: 600px; 
+		font-size: 12pt;
+        font-family:  Helvetica, Arial, "Lucida Grande", sans-serif; 	
+	}
+#account_input { font-size: 14pt; background-color: #FFFFCC; }
+#login_input { font-size: 14pt; background-color: #FFFFCC; }
+#form_input, #question_input { font-size: 14pt; background-color: #FFFFEE; margin-left: 1cm; }
+
+#edit_field, #deadline_date, #deadline_time, #enroll_field { font-size: 14pt; background-color: #FFFFEE;}
+
+#form_error
+	{
+		color: #ffffff;
+		background: #ff0000;
+		display: inline-block;
+		padding: 5px;
+		border-radius: 2px;
+	
+	}
+	
+#answer_choice
+	{
+		display: inline-block;
+		padding: 5px;
+	}
+	
+#answer_choice_correct
+	{
+		display: inline-block;
+		padding: 5px;
+		border: 2px solid #00cc00;
+	}
+	
+
+#answer_choice:hover
+	{
+		background: #ffffcc;
+	}
+	
+#message
+	{
+		color: #ffffff;
+		background: #009900;
+		display: inline-block;
+		padding: 4px;
+		font-size: 14pt;
+	}
+	
+#loading
+	{
+		color: #ffffff;
+		background: #009900;
+		display: inline-block;
+		padding: 4px;
+		font-size: 14pt;
+	}
+	
+#message_red
+	{
+		color: #ffffff;
+		background: #ff0000;
+		display: inline-block;
+		padding: 4px;
+		font-size: 14pt;
+	}
+	
+#correct_count
+	{
+		color: #000000;
+		font-size: 10pt;
+		background-color: #00ff00;
+		padding: 1px;
+	}
+	
+#incorrect_count
+	{
+		color: #000000;
+		font-size: 10pt;
+		background-color: #ff0000;
+		padding: 1px;
+	}
+	
+#class_closed
+	{
+		color: #ffffff;
+		background: #0000ff;
+		display: inline-block;
+		padding: 2px;
+		font-size: 10pt;
+		margin-top: 2px;
+	}
+	
+#correct_answer
+	{
+		color: #ffffff;
+		background: #009900;
+		display: inline-block;
+		padding: 4px;
+		font-size: 14pt;
+		border-radius: 4px;
+		padding: 5px;
+	}
+	
+#grader_share_link
+	{
+		font-size: 8pt;
+	}
+	
+#create_link
+	{
+		font-size: 10pt;
+		font-weight: normal;
+		font-family: Helvetica;
+	}
+	
+#return_link, #other_link
+	{
+		font-size: 12pt;
+		font-weight: normal;
+		font-family: Helvetica;
+	}
+	
+#attach_link
+	{
+		font-size: 10pt;
+		font-weight: normal;
+		font-family: Helvetica;
+	}
+	
+#other_link
+	{
+		font-size: 10pt;
+		font-weight: normal;
+		font-family: Helvetica;
+	}
+	
+
+#preview
+	{
+		border: 2px #aaaaaa solid;
+		border-radius: 5px;
+		font-size: 12pt;
+		font-family: Arial, Helvetica, sans-serif; 
+        font-size: 16pt;
+        margin: 1cm;
+        padding: 20px;
+	}
+	
+#fund
+	{
+		border: 2px #aaaaaa solid;
+		border-radius: 5px;
+		font-size: 12pt;
+		font-family: Arial, Helvetica, sans-serif; 
+        font-size: 16pt;
+        margin: 1cm;
+        padding: 20px;
+	}
+	
+#contribute_box
+	{
+		border: 2px #ff1010 solid;
+		border-radius: 5px;
+		font-size: 18pt;
+		font-family: Helvetica, sans-serif; 
+        margin: 1cm;
+        padding: 20px;
+	}
+
+
+#hl
+	{
+		background: #ffff00;
+		color: #000000;
+		padding: 2px;
+	}
+
+	
+#link_field
+	{
+		font-size: 8pt;
+	}
+	
+#test_link
+	{
+		font-size: 10pt;
+	}
+
+#backer_line
+	{
+		font-size: 12pt;
+		color: #339933;
+	
+	}
+	
+#message_highlight
+	{
+		font-size: 12pt;
+		background: #0000ff;
+		color: #ffffff;
+		display: inline-block;
+		padding: 2px;
+	}
+
+#close_click
+	{
+		float: right;
+		margin-left: auto;
+		margin-right: 0px;
+		font-size: 10pt;
+	}
+	
+#previous_answers
+	{
+		font-size: 12pt;
+	}
+	
+#image_answer
+	{
+		background-color: #000000;
+		width: 800px;
+		height: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+#confirm_question_delete
+	{
+		display:none;
+	}
+	
+#question_nav
+	{
+		font-size: 10pt;
+		margin-left: 0.5cm;
+		margin-top: 0px;
+		margin-bottom: 5px;
+		padding: 0px;
+	}
+	
+#question_abbrev
+	{
+		font-size: 12pt;
+		margin: 0px;
+		margin-bottom: 0px;
+	}
+	
+	
+#answer_abbrev
+	{
+		font-size: 10pt;
+		margin: 0px;
+		margin-bottom: 0px;
+		margin-left: 10px;
+	}
+
+#status_window
+	{
+		display: none;
+	}
+	
+#about_sample
+	{
+		margin-left: 1cm;
+		font-size: 12pt;
+		font-family: Courier;
+	}
+	
+#answer_dump_table
+	{
+		border: 1px solid;
+	}
+	
+#raw_text
+	{
+		font-family: Courier;
+		font-size: 10pt;
+	}
+	
+#pr_problems
+	{
+		font-size: 11pt;
+		margin-left: 1cm;
+	}
+
+#to_you
+	{
+		font-size: 10pt;
+		background: #cc0000;
+		color: #ffffff;
+		padding: 1px;
+	}
+	
+#for_review
+	{
+		font-size: 10pt;
+		background: #006699;
+		color: #ffffff;
+		padding: 1px;
+	}
+	
+#view_count
+	{
+		font-size: 10pt;
+		color: #999999;
+		padding: 1px;
+	}
+	
+#answer_ready
+	{
+		font-size: 10pt;
+		background: #66CC33;
+		color: #ffffff;
+		padding: 1px;
+	}
+
+#answer_ready_reviewed
+	{
+		font-size: 10pt;
+		background: #CC6600;
+		color: #ffffff;
+		padding: 1px;
+	}
+	
+#up_vote
+	{
+		font-size: 10pt;
+		color: #009900;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+#down_vote
+	{
+		font-size: 10pt;
+		color: #ff0000;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+#unanswered
+	{
+		font-size: 10pt;
+		color: #505050;
+	}
+	
+#vote_box
+	{
+		border: 1px solid #cccccc;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+#marker
+	{
+		font-size: 12pt;
+	}
+	
+#comment
+	{
+		width: 90%;
+		background: #eeeeee;
+		font-size: 14pt;
+		border-left: 10px solid #c0c0c0;
+		padding-left: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+#comment_user
+	{
+		font-size: 12pt;
+		font-weight: bold;
+	}
+	
+#post_comment
+	{
+		font-size: 10pt;
+	}
+	
+#comment_action
+	{
+		display: none;
+	}
+
+#downvote_comment
+	{
+		display: inline;
+		background: #eeeeee;
+		font-size: 10pt;
+		border-left: 5px solid #000000;
+		padding-left: 10px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+	
+br.small {
+display: block;
+line-height: 5px;
+margin: 10px 0;
+}
+
+#response
+	{
+		font-size: 10pt;
+	}
+	
+#too_fast
+	{
+		width: 70%;
+		display: inline;
+		color: #ffffff;
+		background: #ff0000;
+		font-size: 10pt;
+		padding: 5px;
+	}
+
+#downvote_box
+	{
+		font-size: 10pt;
+	}
+
+#downvote_why
+	{
+		font-size: 10pt;
+	}
+
+#selected
+	{
+		border: 1px solid;
+		padding: 1px;
+	}
+	
+	
+#add_response_dialog
+	{
+		display: none;
+	}
+	
+#table_highlight
+	{
+		margin: 5px;
+	}
+	
+#table_highlight:hover
+	{
+		background: #dddddd;
+	}
+	
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; }
+.ui-timepicker-rtl dl dd { margin: 0 65px 10px 10px; }
+
