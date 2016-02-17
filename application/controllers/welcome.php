@@ -545,7 +545,7 @@ EOT;
 			{
 				$this->load->view('header');
 				$attempt_count = $this->Answer->get_attempt_info($user_hash,$question_hash);
-				$this->load->view('issue_question',Array('user_hash' => $user_hash,'question_hash' => $question_hash,'msg' => 'You already submitted a correct answser to this question.','mode' => 'real','attempt_count' => $attempt_count));
+				$this->load->view('issue_question',Array('user_hash' => $user_hash,'question_hash' => $question_hash,'msg' => 'You already submitted a correct answer to this question.','mode' => 'real','attempt_count' => $attempt_count));
 				$this->load->view('footer');
 				return;
 			}
